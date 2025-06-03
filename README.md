@@ -39,6 +39,10 @@ A Streamlit web app that performs sentiment analysis on tweets using a machine l
 4. A pre-trained ML model predicts the sentiment as **Positive** or **Negative**.
 5. Results are displayed using Streamlit with color-coded cards (green for positive, red for negative).
 
+## 📥 Dataset Used
+
+https://www.kaggle.com/datasets/kazanova/sentiment140
+
 ## 🖼️ Screenshot
 
 ![Output_Screenshot](https://github.com/user-attachments/assets/123dbeca-a51c-44a7-bc49-6c51d6b31442)
