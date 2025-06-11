@@ -33,11 +33,22 @@ A Streamlit web app that performs sentiment analysis on tweets using a machine l
 
 ## 💡 How It Works
 
-1. User selects either "Input tweet" or "Get tweets from user".
-2. The text is cleaned and tokenized using regex and NLTK stopwords.
-3. TF-IDF vectorization converts the text into a numerical format.
-4. A pre-trained ML model predicts the sentiment as **Positive** or **Negative**.
-5. Results are displayed using Streamlit with color-coded cards (green for positive, red for negative).
+1. User selects between:
+   - Input custom tweet
+   - Fetch tweets via Twitter username
+   - Use sample tweets (no API needed)
+2. Tweets are preprocessed (cleaning, stopword removal)
+3. Vectorized using pre-trained TF-IDF
+4. Passed into a trained model to get prediction
+5. Output rendered as a colored card with additional info
+
+## 🔐 Using Twitter API (Optional)
+
+To fetch live tweets:
+1. Visit [Twitter Developer Portal](https://developer.twitter.com/)
+2. Apply for a developer account and create an App
+3. Generate a **Bearer Token**
+4. Use this token and enter the Twitter username in the app
 
 ## 📥 Dataset Used
 
@@ -45,7 +56,9 @@ https://www.kaggle.com/datasets/kazanova/sentiment140
 
 ## 🖼️ Screenshot
 
-![Output_Screenshot](https://github.com/user-attachments/assets/123dbeca-a51c-44a7-bc49-6c51d6b31442)
+![Output_2](https://github.com/user-attachments/assets/351fa7c6-6975-4e61-b09f-635cd6799751)
+![Output_1](https://github.com/user-attachments/assets/f5c20207-d8fb-4df1-a28f-b00acdfa30f4)
+
 
 
 ## 📦 requirements.txt
